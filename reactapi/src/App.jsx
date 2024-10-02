@@ -24,7 +24,7 @@ function App() {
         {products.map((ele, index) => {
           return (
             <div key={index}>
-              <div className="card bg-white shadow-lg transition-transform duration-300 hover:scale-105 rounded-lg overflow-hidden h-[100vh]">
+              <div className="card bg-white shadow-lg transition-transform duration-300 hover:scale-105 rounded-lg overflow-hidden h-[100vh] max-sm:h-auto">
                 <figure className='w-full bg-slate-400'>
                   <img
                     src={ele.image}
